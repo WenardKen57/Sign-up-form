@@ -17,43 +17,64 @@
     </div>
     <div class="main-content">
       <div class="heading">
-        <p id="heading-message">
+        <p>
           This is not real online service! You know you need something like this
           in your life to help you realize deepest dreams. Sign up now to get started.
         </p>
   
         <p>You know you want to.</p>
       </div>
-      <div class="form-wrapper">
-        <form action="">
-          <fieldset>
-            <legend>Let's do this!</legend>
-            <label for="f-name">FIRST NAME</label>
+      <form action="">
+        <fieldset>
+          <legend id="form-message">Let's do this!</legend>
+          <p>
+            <label for="f-name">FIRST NAME <strong>(required)</strong></label>
             <input type="text" id="f-name" name="first_name" required>
-    
-            <label for="l-name">LAST NAME</label>
+          </p>
+          
+          <p>
+            <label for="l-name">LAST NAME <strong>(required)</strong></label>
             <input type="text" id="l-name" name="last_name" required>
-    
-            <label for="user-email">EMAIL</label>
+          </p>
+
+          <p>
+            <label for="user-email">EMAIL <strong>(required)</strong></label>
             <input type="email" id="user-email" name="email" required>
-    
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" id="phone-number" name="phone_number">
-    
-            <label for="user-password">PASSWORD</label>
-            <input type="password" id="user-password" name="password">
-    
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm-password" name="password">
-          </fieldset>
-          <button type="submit">Create account</button>
-        </form>
+          </p>
+
+          <p>
+            <label for="phone-number">PHONE NUMBER <strong>(required)</strong></label>
+            <input type="tel" id="phone-number" name="phone_number" pattern="^(\+1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$" required>
+          </p>
+
+          <p>
+            <label for="user-password">PASSWORD <strong>(required)</strong></label>
+            <input 
+            type="password" 
+            id="user-password" 
+            name="password" 
+            minlength="8"
+            maxlength="60"
+            required>
+          </p>
   
+          <p>
+            <label for="confirm-password">CONFIRM PASSWORD <strong>(required)</strong></label>
+            <input 
+            type="password" 
+            id="confirm-password" 
+            name="password" 
+            minlength="8"
+            maxlength="60"
+            required>
+          </p>
+
+        </fieldset>
+        <button id="create-account-btn" type="submit">Create account</button>
         <p>Already have an account? <a href="#">Log in</a></p>
-      </div>
-      <div class="footer"></div>
+      </form>
+
     </div>
   </div>
-  
 </body>
 </html>
