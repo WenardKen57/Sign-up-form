@@ -1,21 +1,35 @@
-# Sign-up form
+# 📝 Sign-Up Form
 
-This project is intended to give you a chance to flex some of the new items you’ve been absorbing over the past few lessons. This time it’s a sign-up form for an imaginary service.
+A simple and elegant sign-up form built to practice modern HTML and CSS concepts.  
+This project focuses on form structure, validation, responsive layout techniques, and clean UI design—perfect for strengthening front-end fundamentals.
 
-# Table of contents
+---
+
+## 📌 Table of Contents
 
 - [Preview](#preview)
-- [Live](#live)
+- [Live Demo](#live-demo)
 - [Tools Used](#tools-used)
 
-# Preview
+---
+
+## 🔍 Preview
+
 ![Preview](./preview/sign-up-preview.png)
 
-# Live
+---
 
-[Live](https://wenardken57.github.io/Sign-up-form/)
+## 🚀 Live Demo
 
-# Tools used
+Explore the live version here:  
+**https://wenardken57.github.io/Sign-up-form/**
 
-- HTML
-- CSS
+---
+
+## 🛠️ Tools Used
+
+- **HTML5**
+- **CSS3** (including Flexbox/Grid & form styling)
+
+---
+
